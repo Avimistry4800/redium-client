@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import AddBlog from "./Components/AddBlog/AddBlog";
+import Blogs from "./Components/Blogs/Blogs";
 import Home from "./Components/Home/Home";
 import './styles/main.css'
 
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/blogs">
+            <Blogs />
           </Route>
         </Switch>
       </div>

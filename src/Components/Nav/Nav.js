@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const Nav = () => {
+export default function Navbar() {
+
   return (
-    <div>
-      <h2>NAVBAR</h2>
-    </div>
+    <nav>
+    
+    </nav>
   );
-};
-
-export default Nav;
+}
