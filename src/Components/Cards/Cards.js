@@ -39,7 +39,7 @@ const Cards = () => {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
                 <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-400">
-                  <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar3.png"/>
+                  <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar3gir.png"/>
                   </div>
                   <h6 className="text-xl font-semibold">
                     Lorem, ipsum.
