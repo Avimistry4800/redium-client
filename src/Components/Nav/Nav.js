@@ -8,7 +8,7 @@ const Nav = () => {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
-                            <a className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="#">Brand</a>
+                            <Link to="/home" className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300">REDIUM</Link>
                             {/* Search input on desktop screen */}
                             <div className="hidden mx-10 md:block">
                                 <div className="relative">
@@ -35,8 +35,8 @@ const Nav = () => {
                         <div className="flex flex-col mt-2 md:flex-row md:mt-0 md:mx-1">
                             <Link to="/contact" className="my-1 text-sm leading-5 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" >Contact</Link>
                             <Link to="/dashboard" className="my-1 text-sm leading-5 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" >Dashboard</Link>
-                            <Link to="/contact" className="my-1 text-sm leading-5 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" >Compoents</Link>
-                            <Link to="/contact" className="my-1 text-sm leading-5 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" >Courses</Link>
+                            <Link to="/blogs" className="my-1 text-sm leading-5 text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400 hover:underline md:mx-4 md:my-0" >Blogs</Link>
+                            
                         </div>
                         <div className="flex items-center py-2 -mx-1 md:mx-0">
 

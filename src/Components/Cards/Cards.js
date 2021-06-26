@@ -8,8 +8,8 @@ const Cards = () => {
             <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                    <i className="fas fa-award"></i>
+                  <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-400">
+                  <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar5.png"/>
                   </div>
                   <h6 className="text-xl font-semibold">Lorem ipsum.</h6>
                   <p className="mt-2 mb-4 text-gray-600">
@@ -22,8 +22,8 @@ const Cards = () => {
             <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                    <i className="fas fa-retweet"></i>
+                <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-400">
+                  <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar2.png"/>
                   </div>
                   <h6 className="text-xl font-semibold">
                     Lorem, ipsum.
@@ -38,8 +38,8 @@ const Cards = () => {
             <div className="pt-6 w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                    <i className="fas fa-fingerprint"></i>
+                <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-400">
+                  <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar3.png"/>
                   </div>
                   <h6 className="text-xl font-semibold">
                     Lorem, ipsum.
@@ -53,13 +53,14 @@ const Cards = () => {
           </div>
 
 
-          <div className="flex flex-wrap items-center mt-32">
+          <div className="flex flex-wrap items-center mt-12">
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-                <i className="fas fa-user-friends text-xl"></i>
+              
+              <div className="text-gray-900 p-2  rounded-full  items-center justify-center">
+                <img className="h-12 w-12 shadow-lg rounded-full" src="https://www.w3schools.com/bootstrap4/img_avatar4.png"/>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                lorem5
+                Lorem ipsum dolor sit amet.
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad sint voluptates libero, sapiente incidunt.
@@ -74,7 +75,7 @@ const Cards = () => {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                  src="https://images.unsplash.com/photo-1567896079745-b0b7e5a47679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">

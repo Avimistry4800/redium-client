@@ -5,6 +5,7 @@ import Blogs from '../Blogs/Blogs';
 import Header from '../Header/Header';
 import Cards from '../Cards/Cards';
 import Testimonial from '../Testimonial/Testimonial';
+import Contact from '../Contact/Contact';
 
 
 
@@ -20,7 +21,7 @@ const Home = (props) => {
       <Cards />
      <Blogs /> 
       <Testimonial />
-     
+     <Contact />
      
     </main>
     <Footer />

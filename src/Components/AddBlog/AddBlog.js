@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Dashboard from "../Dashboard/Dashboard";
+import Nav from "../Nav/Nav";
 
 const AddBlog = () => {
     const [blogs, setBlogs] = useState({});
@@ -40,9 +42,17 @@ const AddBlog = () => {
     };
 
     return (
-        <section className=" block mt-60 py-4 lg:pt-0 bg-gray-900">
+
+       <section className="">
+           <Nav />
+            
+            <div className="flex flex-row ">
+            <div className=" flex flex-col w-62  h-full ">
+                <Dashboard />
+            </div>
+            <div className=" container flex flex-wrap block py-4 lg:pt-0 bg-gray-900">
             <div className="container mx-auto px-4">
-                <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+                <div className="flex flex-wrap justify-center md:pt-36 sm:pt-36 pt-48">
                     <div className="w-full lg:w-6/12 px-4">
                         <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                             <div className="flex-auto p-5 lg:p-10">
@@ -103,7 +113,17 @@ const AddBlog = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+           
+        </div>
+
+       </section>
+
+
+
+
+        
+        
     );
 };
 

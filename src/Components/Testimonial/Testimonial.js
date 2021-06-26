@@ -27,49 +27,49 @@ const Testimonial = () => {
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
               <h2 className="text-4xl font-semibold text-white">
-                Build something
-              </h2>
+              Doloremque voluptatum mollitia
+            </h2>
               <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year down to low ice.
-                According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
+              Lmet consectetur adipisicing elit.  vel consequuntur ducimus provident ipsa harum, iure neque dolores unde, iste dicta hic vero saepe ipsum eligendi itaque eaque!
+              
               </p>
             </div>
           </div>
           <div className="flex flex-wrap mt-12 justify-center">
             <div className="w-full lg:w-3/12 px-4 text-center">
-              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <i className="fas fa-medal text-xl"></i>
+            <div className="text-gray-900 p-2  rounded-full flex items-center justify-center">
+                <img className="h-12 w-12 shadow-lg rounded-full" src="https://pixy.org/src/31/thumbs350/315160.jpg"/>
               </div>
               <h6 className="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                Excelent
               </h6>
               <p className="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lmet consectetur adipisicing elit.  vel consequuntur ducimus provident ipsa harum, iure neque dolores unde, iste dicta hic vero saepe ipsum eligendi itaque eaque!
+              
               </p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
-              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <i className="fas fa-poll text-xl"></i>
+            <div className="text-gray-900 p-2  rounded-full flex items-center justify-center">
+                <img className="h-12 w-12 shadow-lg rounded-full" src="https://pixy.org/src2/660/thumbs350/6608595.jpg"/>
               </div>
               <h5 className="text-xl mt-5 font-semibold text-white">
-                Grow your market
+                Grow That Market
               </h5>
               <p className="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lmet consectetur adipisicing elit.  vel consequuntur ducimus provident ipsa harum, iure neque dolores unde, iste dicta hic vero saepe ipsum eligendi itaque eaque!
+              
               </p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
-              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <i className="fas fa-lightbulb text-xl"></i>
+              <div className="text-gray-900 p-2  rounded-full flex items-center justify-center">
+                <img className="h-12 w-12 shadow-lg rounded-full" src="https://cdn.pixabay.com/photo/2021/06/19/08/33/woman-6348024_960_720.jpg"/>
               </div>
               <h5 className="text-xl mt-5 font-semibold text-white">
-                Launch time
+                It's Time
               </h5>
               <p className="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lmet consectetur adipisicing elit.  vel consequuntur ducimus provident ipsa harum, iure neque dolores unde, iste dicta hic vero saepe ipsum eligendi itaque eaque!
+              
               </p>
             </div>
           </div>
