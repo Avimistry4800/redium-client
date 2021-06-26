@@ -85,6 +85,30 @@ const Login = () => {
 
     return (
         
+        // <section className="container ">
+        //     <div className='row login'>
+        //     <div className="form-signin mt-5 pt-3 col-md-6">
+        //     <form onSubmit={handleSubmit}>
+                
+        //         <label htmlFor="inputEmail" className="visually-hidden">Email address</label>
+        //         <input type="email" onBlur={handleBlur} name="email" className="form-control" placeholder="Email address" required autoFocus />
+        //         <label htmlFor="inputPassword" className="visually-hidden">Password</label>
+        //         <input type="password" onBlur={handleBlur}  name="password" className="form-control" placeholder="Min 8 caractor with text and number" required />
+                
+        //         <button className="w-100 btn btn-lg btn-primary mb-2" type="submit">Signin'</button>
+               
+                
+        //     </form>
+            
+        //     <p >{user.error}</p>
+        //     {
+        //         user.success && <p style={{ color: 'green' }}>User Logged In successfully</p>
+        //     }
+        // </div>
+        // </div>
+        
+        // </section>
+        
 <section className="min-h-screen flex items-stretch text-white ">
         <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1577495508048-b635879837f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80)'}}>
           <div className="absolute bg-black opacity-60 inset-0 z-0" />
@@ -118,10 +142,10 @@ const Login = () => {
             </p>
             <form action onSubmit={handleSubmit} className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
               <div className="pb-2 pt-4">
-                <input type="email" name="email" id="email" placeholder="Email" className="block w-full p-4 text-lg rounded-sm bg-black" />
+                <input type="email" name="email" onBlur={handleBlur} placeholder="Email" className="block w-full p-4 text-lg rounded-sm bg-black" />
               </div>
               <div className="pb-2 pt-4">
-                <input className="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" id="password" placeholder="Password" />
+                <input className="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" onBlur={handleBlur} placeholder="Password" />
               </div>
              
               <div className="px-4 pb-2 pt-4">
