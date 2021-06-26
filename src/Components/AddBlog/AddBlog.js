@@ -25,7 +25,7 @@ const AddBlog = () => {
         formData.append("image", image);
         formData.append("title", blogs.title);
         formData.append("content", blogs.content);
-        fetch("http://localhost:5000/addblog", {
+        fetch("https://redium-blog-server.herokuapp.com//addblog", {
             method: "POST",
             body: formData,
         })

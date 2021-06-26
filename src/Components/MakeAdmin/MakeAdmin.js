@@ -11,7 +11,7 @@ const MakeAdmin = () => {
     }
     const handleSubmit = e =>{
         e.preventDefault()
-        const url = 'http://localhost:5000/addAdmin'
+        const url = 'https://redium-blog-server.herokuapp.com//addAdmin'
         fetch(url, {
             method: 'POST',
             headers: {

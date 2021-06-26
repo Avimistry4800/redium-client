@@ -6,7 +6,7 @@ const ManageBlog = () => {
     const [showModal, setShowModal] = React.useState(false);
 
     useEffect(() => {
-        fetch("http://localhost:5000/blogs")
+        fetch("https://redium-blog-server.herokuapp.com//blogs")
             .then((res) => res.json())
             .then((data) => {
                 setManageBlog(data);
@@ -15,7 +15,7 @@ const ManageBlog = () => {
 
     const handleDelete = (id) => {
         id &&
-            fetch(`http://localhost:5000/blogs/${id}`, {
+            fetch(`https://redium-blog-server.herokuapp.com//blogs/${id}`, {
                 method: "DELETE",
                 headers: {
                     "content-type": "application/json",

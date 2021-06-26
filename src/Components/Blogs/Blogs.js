@@ -4,7 +4,7 @@ import BlogDetails from "../BlogDetails/BlogDetails";
 const Blogs = () => {
     const [blogData, setBlogData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/blogs")
+        fetch("https://redium-blog-server.herokuapp.com//blogs")
             .then((res) => res.json())
             .then((data) => setBlogData(data));
     }, []);

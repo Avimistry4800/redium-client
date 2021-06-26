@@ -557,9 +557,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 420px) {
   .container {
-    max-width: 640px;
+    max-width: 420px;
   }
 }
 
@@ -6884,7 +6884,7 @@ video {
 }
 
 .max-w-screen-sm {
-  max-width: 640px;
+  max-width: 420px;
 }
 
 .max-w-screen-md {
@@ -30313,14 +30313,14 @@ video {
   -webkit-line-clamp: unset;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 420px) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 420px) {
     .sm\:container {
-      max-width: 640px;
+      max-width: 420px;
     }
   }
 
@@ -36645,7 +36645,7 @@ video {
   }
 
   .sm\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 420px;
   }
 
   .sm\:max-w-screen-md {
@@ -59636,9 +59636,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 420px) {
     .md\:container {
-      max-width: 640px;
+      max-width: 420px;
     }
   }
 
@@ -65963,7 +65963,7 @@ video {
   }
 
   .md\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 420px;
   }
 
   .md\:max-w-screen-md {
@@ -88954,9 +88954,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 420px) {
     .lg\:container {
-      max-width: 640px;
+      max-width: 420px;
     }
   }
 
@@ -95281,7 +95281,7 @@ video {
   }
 
   .lg\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 420px;
   }
 
   .lg\:max-w-screen-md {
@@ -118272,9 +118272,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 420px) {
     .xl\:container {
-      max-width: 640px;
+      max-width: 420px;
     }
   }
 
@@ -124599,7 +124599,7 @@ video {
   }
 
   .xl\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 420px;
   }
 
   .xl\:max-w-screen-md {
@@ -147590,9 +147590,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 420px) {
     .\32xl\:container {
-      max-width: 640px;
+      max-width: 420px;
     }
   }
 
@@ -153917,7 +153917,7 @@ video {
   }
 
   .\32xl\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 420px;
   }
 
   .\32xl\:max-w-screen-md {
